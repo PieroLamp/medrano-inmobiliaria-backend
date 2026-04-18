@@ -23,4 +23,4 @@ app.get('/api/propiedades', (req, res) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`🚀 Servidor Medrano Inmobiliaria en puerto ${PORT}`);
-});
+});const morgan = require('morgan');
